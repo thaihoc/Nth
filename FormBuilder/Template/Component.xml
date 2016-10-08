@@ -1,0 +1,9 @@
+<component name="componentName" class="componentClass" type="componentType">
+    <options>
+        <option name="optionName">optionValue</option>
+        <!--...-->
+    </options>
+    <childrens>
+        <!--Recursive template...-->
+    </childrens>
+</component>

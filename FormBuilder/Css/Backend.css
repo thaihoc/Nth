@@ -1,0 +1,404 @@
+#fb-factory-wrapper .fieldset-action .act {
+    margin-top: 5px;
+}
+#fb-factory-wrapper .tool-palette #tab-container .nav-tabs > li > a{
+    border-radius: 0;
+    padding: 5px 7px;
+}
+#fb-factory-wrapper .drawing-board .row.active{
+    outline: 1px solid #EFAB61;
+    background:#FFF5EA;
+}
+#fb-factory-wrapper .drawing-board .col.active{
+    outline: 1px solid #EFAB61;
+    background:#FFF5EA;
+}
+#fb-factory-wrapper .drawing-board .form-wrapper{ 
+    margin:0;
+    padding: 10px 0 10px 0;
+    min-width:0
+}
+#fb-factory-wrapper .drawing-board .form-wrapper > .fb-placeholder{
+    border:1px solid #EFAB61;
+    display:block;
+    height:20px;
+    margin-left:-15px;
+    margin-right:-15px
+}
+#fb-factory-wrapper .drawing-board .row > .fb-placeholder{
+    width: 100%;
+    border:1px solid #F9E969;
+    display:block;
+    float:left;
+    height:20px;
+}
+@media (min-width: 992px){
+    #fb-factory-wrapper .drawing-board .row > .fb-placeholder {
+        width: 33.33333333%;
+    }
+}
+#fb-factory-wrapper .drawing-board .row .col > .fb-placeholder{
+    border:1px solid #ccc;
+    display:block;
+    margin-top:10px;
+    float: left;
+    width: 100%;
+}
+#fb-factory-wrapper .drawing-board .row .row-property{
+    display: none;
+    cursor:pointer;
+    position: absolute;
+    top: -10px;
+    right:0;
+    background: #F3F3F3;
+    padding: 0;
+    margin: 0;
+    line-height: normal;
+}
+#fb-factory-wrapper .drawing-board .col .col-property{
+    display: none;
+    cursor:pointer;
+    position: absolute;
+    top: -10px;
+    right: 0;
+    background: #F3F3F3;
+    padding: 0;
+    margin: 0;
+    line-height: normal;
+}
+#fb-factory-wrapper .drawing-board .col:hover .col-property,
+#fb-factory-wrapper .drawing-board .col.active .col-property{
+    display:inline-block;
+}
+#fb-factory-wrapper .drawing-board .form-group.active{
+    cursor:pointer;
+}
+#fb-factory-wrapper .drawing-board .form-group:hover,
+#fb-factory-wrapper .drawing-board .form-group.active{
+    outline: 1px solid #EFAB61;
+}
+#fb-factory-wrapper .drawing-board .form-group.active{
+    background:#FFF5EA;
+}
+#fb-factory-wrapper .drawing-board .control-toolpalette{
+    display:none;
+    position:absolute;
+    top:-5px;
+    right:0;
+    z-index:14;
+    min-width: 60%;
+    text-align: right;
+}
+#fb-factory-wrapper .drawing-board .form-wrapper .form-group:hover .control-toolpalette,
+#fb-factory-wrapper .drawing-board .form-group.active .control-toolpalette{
+    display:inline-block;
+}
+#fb-factory-wrapper .drawing-board .control-toolpalette span{ 
+    margin:0 5px 0 0;
+}
+#fb-factory-wrapper .drawing-board .control-toolpalette .delete{
+    display:inline-block;
+    width:16px;
+    height:16px;
+    background:url('../Image/delete.gif') no-repeat center;
+}
+#fb-factory-wrapper .drawing-board .control-toolpalette .edit{
+    display:inline-block;
+    width:16px;
+    height:16px;
+    background:url('../Image/pencil.gif') no-repeat center;
+}
+#fb-factory-wrapper .drawing-board .control-toolpalette .duplicate{
+    display:inline-block;
+    width:16px;
+    height:16px;
+    background:url('../Image/duplicate.gif') no-repeat center;
+}
+#fb-factory-wrapper .drawing-board .control-toolpalette .delete:active,
+#fb-factory-wrapper .drawing-board .control-toolpalette .edit:active,
+#fb-factory-wrapper .drawing-board .control-toolpalette .duplicate:active{
+    position:relative;
+    top:1px;
+}
+#fb-factory-wrapper .tool-palette .component-setting{
+    margin-bottom: 10px;
+}
+#fb-factory-wrapper .tool-palette table.settings{
+    width:100%;
+    border-collapse:collapse;
+}
+#fb-factory-wrapper .tool-palette table.settings td{
+    border:1px solid #d2d2d2;
+    padding:1px 0 1px 3px;
+}
+#fb-factory-wrapper .tool-palette table.settings td:nth-child(even){
+    background:#ffffff scroll;
+    width:70%;
+}
+#fb-factory-wrapper .tool-palette table.settings td:nth-child(odd){
+    background:#f5f5f5 scroll;
+    width:30%;
+}
+#fb-factory-wrapper .tool-palette table.settings td.head{
+    font-weight:bold;
+    color:#fff;
+    font-size: 15px;
+    text-align: center;
+    background: #459B9B;
+    text-transform: uppercase;
+}
+#fb-factory-wrapper .tool-palette table.settings input[type=radio],
+#fb-factory-wrapper .tool-palette table.settings label{
+    margin:0;
+    padding:0;
+}
+#fb-factory-wrapper .tool-palette table.settings label{
+    cursor:pointer;
+    display:inline-block;
+    font-size:90%;
+    padding:0 5px 0 2px;
+}
+#fb-factory-wrapper .tool-palette table.inputtable td,
+#fb-factory-wrapper .tool-palette table.inputtable th{
+    padding:0;
+}
+#fb-factory-wrapper .tool-palette table.inputtable td:nth-child(even){
+    width:auto;
+    background:none;
+}
+#fb-factory-wrapper .tool-palette table.inputtable td:nth-child(odd){
+    width:auto;
+    background:none;
+}
+#fb-factory-wrapper .drawing-board .form-editting .row:hover{
+    background:#FFEAFF scroll;
+    cursor:pointer;
+}
+#fb-factory-wrapper .drawing-board .row:hover .row-property,
+#fb-factory-wrapper .drawing-board .row.active .row-property{
+    display:inline-block;
+}
+#fb-factory-wrapper .drawing-board .form-editting .col:hover{
+    background:#E8FFFF scroll;
+    cursor:pointer;
+}
+#fb-factory-wrapper .icon.save{
+    background:url('../Image/filesave.gif') no-repeat center;
+}
+#fb-factory-wrapper .icon.add{
+    background:url('../Image/add.gif') no-repeat center;
+}
+#fb-factory-wrapper .icon.copy{
+    background:url('../Image/copy.png') no-repeat center;
+}
+#fb-factory-wrapper .icon.paste{
+    background:url('../Image/paste.png') no-repeat center;
+}
+#fb-factory-wrapper .icon.edit{
+    background:url('../Image/pencil.gif') no-repeat center;
+}
+#fb-factory-wrapper .icon.restore{
+    background:url('../Image/back.png') no-repeat center;
+}
+#fb-factory-wrapper .icon.apply{
+    background:url('../Image/checkbox_16.gif') no-repeat center;
+}
+#fb-factory-wrapper .icon.delete{
+    background:url('../Image/cross_16.gif') no-repeat center;
+}
+#fb-factory-wrapper .icon.label{
+    background:url('../Image/stock_format_character.png') no-repeat center;background-color:transparent;
+}
+#fb-factory-wrapper .icon.text{
+    background:url('../Image/single_line_text_bg.gif') no-repeat center;
+}
+#fb-factory-wrapper .icon.textarea{
+    background:url('../Image/paragraph_text_bg.gif') no-repeat center;
+}
+#fb-factory-wrapper .icon.radio{
+    background:url('../Image/multiplechoice_bg.gif') no-repeat center;
+}
+#fb-factory-wrapper .icon.checkbox{
+    background:url('../Image/checkbox.gif') no-repeat center;
+}
+#fb-factory-wrapper .icon.select{
+    background:url('../Image/dropdown_bg.gif') no-repeat center;
+}
+#fb-factory-wrapper .icon.date{
+    background:url('../Image/date_bg.gif') no-repeat center;
+}
+#fb-factory-wrapper .icon.list{
+    background:url('../Image/list.png') no-repeat center;
+}
+#fb-factory-wrapper .icon.table{
+    background:url('../Image/table.png') no-repeat center;
+}
+#fb-factory-wrapper .icon.row{
+    background:url('../Image/document_break.png') no-repeat center;
+}
+#fb-factory-wrapper .icon.column{
+    background:url('../Image/text_columns.png') no-repeat center;
+}
+#fb-factory-wrapper .icon.file{
+    background:url('../Image/file_upload_bg.gif') no-repeat center;
+}
+#fb-factory-wrapper .tool-palette .creator-list{
+    padding-bottom:20px;
+}
+#fb-factory-wrapper .tool-palette .creator-list{
+    padding-top:10px;
+}
+#fb-factory-wrapper .tool-palette .creator-list li{
+    margin:5px 0 0 10px;
+    line-height:35px;
+    float:left;
+}
+#fb-factory-wrapper .tool-palette .creator-wrapper{
+    display:inline-block;
+    border:1px solid #f1f1f1;
+    float: left;
+    margin: 0 10px 5px 0px;
+}
+#fb-factory-wrapper .drawing-board .creator-wrapper{
+    display:none !important;
+}
+#fb-factory-wrapper .tool-palette .creator-wrapper:hover{
+    cursor:pointer;
+    background-color:#FF9;
+    border:1px solid #87A8DA;
+}
+#fb-factory-wrapper .tool-palette .creator-icon{
+    width: 40px;
+    height: 35px;
+    margin: 0;
+    display: inline-block;
+    float: left;
+}
+#fb-factory-wrapper .tool-palette .creator-label{
+    padding-left:10px;
+    background:url('../Image/bg_control_item.gif') repeat-x;
+    color:#fff;
+    font-weight:bold;
+    display:inline-block;
+    width:110px;
+    height: 35px;
+    line-height:35px;
+}
+#fb-factory-wrapper .tool-palette table.element-property{
+    width:100%;
+    border-collapse:collapse;
+    margin: 10px 0 5px 0;
+}
+#fb-factory-wrapper .tool-palette table.element-property > tbody > tr > td{
+    border:1px solid #d2d2d2;
+    padding:1px 0 1px 3px;
+}
+#fb-factory-wrapper .tool-palette table.element-property > tbody > tr > :nth-child(even){
+    background:#ffffff scroll;
+}
+#fb-factory-wrapper .tool-palette table.element-property > tbody > tr > td:nth-child(odd){
+    background:#f5f5f5 scroll;
+    width: 35%;
+}
+#fb-factory-wrapper .tool-palette table.element-property > thead > tr > th{
+    font-weight:bold;
+    color:#fff;
+    font-size: 15px;
+    text-align: center;
+    background: #459B9B;
+    text-transform: uppercase;
+}
+#fb-factory-wrapper .tool-palette table.element-property .property-name{
+    padding:0;
+    margin:0;
+    cursor:default;
+}
+#fb-factory-wrapper .tool-palette table.element-property td > input[type=text],
+#fb-factory-wrapper .tool-palette table.element-property td > texarea,
+#fb-factory-wrapper .tool-palette table.element-property td > select,
+#fb-factory-wrapper .tool-palette table.element-property td > div > .input-group > input[type=text]{
+    padding:0;
+    margin:0;
+    border:none;
+    width: 100%;
+    height:22px;
+    font-size:14px;
+    background: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0);
+    -moz-box-shadow:    0px 0px 0px 0px rgba(255, 255, 255, 0);
+    box-shadow:         0px 0px 0px 0px rgba(255, 255, 255, 0);
+}
+#fb-factory-wrapper .tool-palette table.element-property td > input[type=text][readonly]{
+    background: #f1f1f1;
+}
+#fb-factory-wrapper .tool-palette table.element-property td > select{margin-left: -4px;}
+#fb-factory-wrapper .tool-palette table.element-property td > div > .input-group > .input-group-btn,
+#fb-factory-wrapper .tool-palette table.element-property td > div > .input-group > .input-group-addon {
+    border:none;
+    cursor:pointer;
+    border-radius: 0;
+    background-color: #f4f4f4;
+}
+#fb-factory-wrapper .tool-palette table.element-property td > div > .input-group > .input-group-btn > .btn{
+    border: none;
+    box-shadow: none;
+    line-height: 1;
+    height: auto;
+}
+#fb-factory-wrapper .tool-palette .validators-setter .panel-heading {
+    position: relative;
+}
+#fb-factory-wrapper .tool-palette .validators-setter .panel-heading .input-wrapper{
+    position: relative;
+    margin-right: 3px;
+    font-weight: bold;
+}
+#fb-factory-wrapper .tool-palette .validators-setter .panel-heading a {
+    color: #333;
+}
+#fb-factory-wrapper .tool-palette .validators-setter .panel-heading a:hover,
+#fb-factory-wrapper .tool-palette .validators-setter .panel-heading a:active,
+#fb-factory-wrapper .tool-palette .validators-setter .panel-heading a:focus {
+    outline: none;
+    text-decoration: none;
+    color: #72afd2;
+}
+#fb-factory-wrapper .tool-palette .validators-setter .panel-heading input[type=radio] {
+    margin: 0;
+    position: relative;
+    top: 2px;
+}
+#fb-factory-wrapper .tool-palette .validators-setter .panel-heading label{
+    margin-left: 3px;
+}
+
+
+#fb-factory-wrapper .tool-palette .filters-setter .panel-heading {
+    position: relative;
+}
+#fb-factory-wrapper .tool-palette .filters-setter .panel-heading .input-wrapper{
+    position: relative;
+    margin-right: 3px;
+    font-weight: bold;
+}
+#fb-factory-wrapper .tool-palette .filters-setter .panel-heading a {
+    color: #333;
+}
+#fb-factory-wrapper .tool-palette .filters-setter .panel-heading a:hover,
+#fb-factory-wrapper .tool-palette .filters-setter .panel-heading a:active,
+#fb-factory-wrapper .tool-palette .filters-setter .panel-heading a:focus {
+    outline: none;
+    text-decoration: none;
+    color: #72afd2;
+}
+#fb-factory-wrapper .tool-palette .filters-setter .panel-heading input[type=radio] {
+    margin: 0;
+    position: relative;
+    top: 2px;
+}
+#fb-factory-wrapper .tool-palette .filters-setter .panel-heading label{
+    margin-left: 3px;
+}

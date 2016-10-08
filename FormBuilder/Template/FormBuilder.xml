@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form-builder>
+    
+    <form-config>
+        <parameter name="elementRowClass" value="row" />
+        <parameter name="elementColumnClass" value="col" />
+        <parameter name="elementWrapperClass" value="form-group" />
+        <parameter name="elementLabelClass" value="form-label" />
+        <parameter name="elementClass" value="form-control" />
+    </form-config>
+    
+    <!--Component template...-->
+    
+</form-builder>
+

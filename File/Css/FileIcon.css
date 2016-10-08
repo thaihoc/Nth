@@ -1,0 +1,36 @@
+.file-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('../Image/blank_16.png');
+}
+.file-icon.file-dxf {
+    background: url('../Image/dxf_16.png');
+}
+.file-icon.file-xls, .file-icon.file-xlsx {
+    background: url('../Image/excel_16.gif');
+}
+.file-icon.file-gif {
+    background: url('../Image/gif_16.gif');
+}
+.file-icon.file-jpg {
+    background: url('../Image/jpg_16.png');
+}
+.file-icon.file-pdf {
+    background: url('../Image/pdf_16.png');
+}
+.file-icon.file-png {
+    background: url('../Image/png_16.png');
+}
+.file-icon.file-ppt, .file-icon.file-pptx {
+    background: url('../Image/powerpoint_16.png');
+}
+.file-icon.file-rar {
+    background: url('../Image/rar_16.png');
+}
+.file-icon.file-doc, .file-icon.file-docx {
+    background: url('../Image/word_16.gif');
+}
+.file-icon.file-zip {
+    background: url('../Image/zip_16.png');
+}
